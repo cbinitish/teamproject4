@@ -11,6 +11,7 @@ public class login extends CommonAPI {
         typeByXpath("//input[@id='email']","cbinitish@gmail.com");
         typeByXpath("//input[@id='password-input-field']","Nitish1!");
         clickByXpath("//span[contains(text(),'Sign In')]");
+
     }
 
 }
